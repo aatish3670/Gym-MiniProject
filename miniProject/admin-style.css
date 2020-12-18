@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#admin-background {
+  background: url("https://source.unsplash.com/1600x900/?gym,bodybuilder")
+    no-repeat;
+  background-size: cover;
+}
+#member-background {
+  background: url("https://source.unsplash.com/1600x900/?gym,bodybuilder")
+    no-repeat;
+  background-size: cover;
+}
+#trainer-background {
+  background: url("https://source.unsplash.com/1600x900/?gym,bodybuilder")
+    no-repeat;
+  background-size: cover;
+}
+main {
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  letter-spacing: 8px;
+}
+#heading {
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 6px #333333;
+}
+a {
+  text-decoration: none;
+  color: #333333;
+}
+.join-btn {
+  padding: 6.5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d3d0d0;
+  cursor: pointer;
+}
+.join-btn:hover {
+  color: whitesmoke;
+  background-color: rgb(49, 48, 48);
+}
+
+nav {
+  z-index: 10;
+  height: 70px;
+  background: rgb(29, 28, 28);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  color: aliceblue;
+  cursor: pointer;
+}
+.nav-login a:hover {
+  color: whitesmoke;
+}
+
+.container-content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 50px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.details-content {
+  display: flex;
+  flex-direction: column;
+}
+.active {
+  color: #333333;
+  background-color: whitesmoke;
+}
+.list-group-item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  outline-style: none;
+  color: #333333;
+  background-color: whitesmoke;
+}
+.list-group-item:hover {
+  background-color: #3a3939;
+  color: white;
+}
+.list-group {
+  display: flex;
+  flex-direction: column;
+}
+register-content {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+.register-body {
+  padding: 10px;
+
+  text-align: center;
+  background-color: #333333;
+  color: whitesmoke;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 400px 20px 400px;
+}
+.form-control {
+  margin-bottom: 10px;
+}
+label {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+input,
+select {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 2;
+  padding: 0 20px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.card-body {
+  position: absolute;
+  top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3333333d;
+  padding: 30px;
+  max-width: 30%;
+}
+.container-card {
+  background-image: url("./images/4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+h5 {
+  font-size: 24px;
+  color: white;
+}
+.detail-body {
+  padding: 20px;
+  display: grid;
+  height: auto;
+  width: 60%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px auto;
+  border: 1px solid #333333;
+}
+.container-detail {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading-body {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-table {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+.package {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background: url("./images/2.jpg") no-repeat;
+  background-size: cover;
+}
+.heading-package {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-package {
+  max-width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+.container-package {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background: url("./images/2.jpg") no-repeat;
+  background-size: cover;
+}
+.heading-package {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-package {
+  max-width: 50%;
+  margin: auto;
+  padding: 20px;
+}
